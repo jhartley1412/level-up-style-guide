@@ -39,6 +39,7 @@ nav{
 footer{
 	width: 100%;
 	margin: 0 auto;
+	margin-top: 2rem;
 	padding: 2rem 0;
 
 	background-color: $text-color;
@@ -97,6 +98,10 @@ h3{
 	position: relative;
 }
 
+.desktop-everything, .tablet-everything, .main-everything{
+	position: relative;
+}
+
 .mobile-title-container{
 	width: 100%;
 	margin: 0 auto;
@@ -110,12 +115,21 @@ h3{
 	box-sizing: border-box;
 	padding: 0.2rem 1rem;
 	overflow: hidden;
+
+	&:nth-child(even){
+		margin-top: 2em;
+	}
 }
 
 p{
 	width: 90%;
 	max-width: 500px;
 	line-height: 1.6;
+}
+
+.first-paragraph{
+	width: 100%;
+	margin: 0.5em 0 2em 0;
 }
 
 .color1{
@@ -166,6 +180,20 @@ p{
 	 	margin: 0 auto;
 	 	display: block;
 	 }
+}
+
+.arimo{
+	width: 80%;
+	margin: 0;
+	font-family: 'Arimo', sans-serif;
+	font-size: 1.6rem;
+}
+
+.mont{
+	width: 80%;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.6rem;
 }
 
 

@@ -18,9 +18,6 @@
   h3 {
     margin: 1em auto; }
 
-  footer {
-    position: static; }
-
   .nav-mobile {
     width: 100%;
     margin: 0 auto; }
@@ -55,9 +52,15 @@
     display: none; }
 
   .desktop-everything {
+    display: none; }
+
+  .main-everything {
     display: none; } }
 @media (min-width: 620px) {
   .tablet-everything {
+    display: block; }
+
+  .main-everything {
     display: block; }
 
   header {
@@ -90,6 +93,9 @@
     width: 100px;
     height: 100px; }
 
+  .type-footer {
+    position: static; }
+
   .mobile-everything {
     display: none; }
 
@@ -111,9 +117,6 @@
   h2 {
     font-size: 1.6em; }
 
-  footer {
-    bottom: 0; }
-
   .main-container {
     margin: 3rem auto; }
 
@@ -121,6 +124,13 @@
     width: 50%;
     float: left;
     margin: 0; }
+
+  .second-desc {
+    margin-top: 2em; }
+
+  .type-footer {
+    position: fixed;
+    bottom: 0; }
 
   .mobile-everything {
     display: none; }
@@ -153,6 +163,7 @@ nav {
 footer {
   width: 100%;
   margin: 0 auto;
+  margin-top: 2rem;
   padding: 2rem 0;
   background-color: #444444;
   text-align: center;
@@ -198,6 +209,9 @@ h3 {
 .phone-container {
   position: relative; }
 
+.desktop-everything, .tablet-everything, .main-everything {
+  position: relative; }
+
 .mobile-title-container {
   width: 100%;
   margin: 0 auto;
@@ -210,11 +224,17 @@ h3 {
   box-sizing: border-box;
   padding: 0.2rem 1rem;
   overflow: hidden; }
+  .main-container:nth-child(even) {
+    margin-top: 2em; }
 
 p {
   width: 90%;
   max-width: 500px;
   line-height: 1.6; }
+
+.first-paragraph {
+  width: 100%;
+  margin: 0.5em 0 2em 0; }
 
 .color1 {
   background-color: #f59f06; }
@@ -252,5 +272,17 @@ p {
     width: 99%;
     margin: 0 auto;
     display: block; }
+
+.arimo {
+  width: 80%;
+  margin: 0;
+  font-family: 'Arimo', sans-serif;
+  font-size: 1.6rem; }
+
+.mont {
+  width: 80%;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem; }
 
 /*# sourceMappingURL=main.css.map */

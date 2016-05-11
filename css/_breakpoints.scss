@@ -32,10 +32,6 @@
 		margin: 1em auto;
 	}
 
-	footer{
-		position: static;
-	}
-
 	.nav-mobile{
 		width: 100%;
 		margin: 0 auto;
@@ -84,6 +80,10 @@
 		display: none;
 	}
 
+	.main-everything{
+		display: none;
+	}
+
 }
 
 
@@ -97,6 +97,10 @@
 @media(min-width: 620px){
 	
 	.tablet-everything{
+		display: block;
+	}
+
+	.main-everything{
 		display: block;
 	}
 	
@@ -135,6 +139,10 @@
 	.circle{
 		width: 100px;
 		height: 100px;
+	}
+
+	.type-footer{
+		position: static;
 	}
 
 
@@ -178,10 +186,6 @@
 		font-size: 1.6em;
 	}
 
-	footer{
-		bottom: 0;
-	}
-
 	.main-container{
 		margin: 3rem auto;
 	}
@@ -190,7 +194,15 @@
 		width: 50%;
 		float: left;
 		margin: 0;
+	}
 
+	.second-desc{
+		margin-top: 2em;
+	}
+
+	.type-footer{
+		position: fixed;
+		bottom: 0;
 	}
 
 
