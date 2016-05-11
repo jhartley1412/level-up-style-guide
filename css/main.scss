@@ -1,0 +1,130 @@
+
+// typeface: Oxygen - bulky font
+// typeface: Overlock - stylish font
+
+@import "breakpoints";
+
+body{
+	color: $text-color;
+	font-family: 'Oxygen', sans-serif;
+}
+
+header{
+	border-bottom: 8px solid $orange-color;
+}
+
+nav{
+	width: 90%;
+	max-width: 1200px;
+	margin: 0.5rem auto;
+	font-family: 'Overlock', Helvetica, serif;
+
+	a{
+		display: inline-block;
+		margin-right: 2rem;
+		text-decoration: none;
+		font-size: 1.2rem;
+		color: $text-color;
+
+		&:hover{
+			color: $orange-color;
+		}
+	}
+
+	.active-tag{
+		text-decoration: underline;
+	}
+}
+
+footer{
+	width: 100%;
+	margin: 0 auto;
+	padding: 2rem 0;
+
+	background-color: $text-color;
+	text-align: center;
+	color: #F9F9F9;
+	font-size: 0.8rem;
+}
+
+
+h1{
+	font-family: 'Overlock', Helvetica, serif;
+	font-weight: 700;
+	color: #000;
+}
+
+h2{
+	font-family: 'Overlock', Helvetica, serif;
+	margin: 0 auto;
+	color: $purple-color;
+}
+
+h3{
+	font-family: 'Oxygen', Helvetica, sans-serif;
+	font-size: 1rem;
+	text-transform: uppercase;
+	margin: 0 auto;
+	margin-top: 1rem;
+	color: darken($purple-color, 15%);
+}
+
+.fa{
+	color: $orange-color;
+
+	&:hover{
+		color: $purple-color;
+	}
+}
+
+.fa-caret-right{
+	position: absolute;
+	right: 4rem;
+	margin-top: 0.8rem;
+}
+
+.title{
+	font-family: 'Oxygen', Helvetica, sans-serif;
+}
+
+
+.main-container{
+	width: 90%;
+	max-width: 1200px;
+	box-sizing: border-box;
+	padding: 0.2rem 1rem;
+	overflow: hidden;
+}
+
+p{
+	width: 90%;
+	max-width: 500px;
+	line-height: 1.6;
+}
+
+.mobile-pic{
+	width: 95%;
+	margin: 2rem auto;
+	display: block;
+}
+
+
+.picture-container{
+	 box-sizing: border-box;
+	 padding: 1rem 0;
+
+	 img{
+	 	width: 99%;
+	 	margin: 0 auto;
+	 	display: block;
+	 }
+}
+
+
+
+
+
+
+
+
+
