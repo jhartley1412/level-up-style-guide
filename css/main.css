@@ -27,10 +27,29 @@
 
   .desc {
     width: 95%;
-    margin: 0 auto;
+    margin: 0.5em auto;
     margin-left: 1.2em;
     box-sizing: border-box;
     padding: 0.5em 1.2em; }
+
+  .colors-row {
+    width: 100%;
+    margin: 1em auto;
+    overflow: hidden; }
+
+  .circle-container {
+    width: 30%;
+    float: left;
+    margin-right: 3%; }
+    .circle-container p {
+      text-align: center;
+      margin: 0.5em 0 0 0.2em; }
+
+  .circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto; }
 
   .tablet-everything {
     display: none; }
@@ -159,13 +178,27 @@ h3 {
   .fa:hover {
     color: #5C3AD8; }
 
+.fa-caret-left {
+  position: absolute;
+  top: 8%;
+  left: 4rem; }
+
 .fa-caret-right {
   position: absolute;
-  right: 4rem;
-  margin-top: 0.8rem; }
+  top: 8%;
+  right: 4rem; }
 
 .title {
   font-family: 'Oxygen', Helvetica, sans-serif; }
+
+.phone-container {
+  position: relative; }
+
+.mobile-title-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.5em 0;
+  position: relative; }
 
 .main-container {
   width: 90%;
@@ -178,6 +211,30 @@ p {
   width: 90%;
   max-width: 500px;
   line-height: 1.6; }
+
+.color1 {
+  background-color: #f59f06; }
+
+.color2 {
+  background-color: #FBCC33; }
+
+.color3 {
+  background-color: #5C3AD8; }
+
+.color4 {
+  background-color: #57CE6E; }
+
+.color5 {
+  background-color: #1A92FF; }
+
+.color6 {
+  background-color: #C94B6F; }
+
+.color7 {
+  background-color: #444444; }
+
+.color8 {
+  background-color: #F0F0F0; }
 
 .mobile-pic {
   width: 95%;

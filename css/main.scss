@@ -77,16 +77,32 @@ h3{
 	}
 }
 
+.fa-caret-left{
+	position: absolute;
+	top: 8%;
+	left: 4rem;
+}
+
 .fa-caret-right{
 	position: absolute;
+	top: 8%;
 	right: 4rem;
-	margin-top: 0.8rem;
 }
 
 .title{
 	font-family: 'Oxygen', Helvetica, sans-serif;
 }
 
+.phone-container{
+	position: relative;
+}
+
+.mobile-title-container{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0.5em 0;
+	position: relative;
+}
 
 .main-container{
 	width: 90%;
@@ -100,6 +116,38 @@ p{
 	width: 90%;
 	max-width: 500px;
 	line-height: 1.6;
+}
+
+.color1{
+	background-color: $orange-color;
+}
+
+.color2{
+	background-color: $yellow-color;
+}
+
+.color3{
+	background-color: $purple-color;
+}
+
+.color4{
+	background-color: $green-color;
+}
+
+.color5{
+	background-color: $blue-color;
+}
+
+.color6{
+	background-color: $pink-color;
+}
+
+.color7{
+	background-color: $text-color;
+}
+
+.color8{
+	background-color: $gray-color;
 }
 
 .mobile-pic{
@@ -119,6 +167,8 @@ p{
 	 	display: block;
 	 }
 }
+
+
 
 
 
