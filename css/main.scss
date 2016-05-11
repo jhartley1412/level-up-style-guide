@@ -70,6 +70,15 @@ h3{
 	color: darken($purple-color, 15%);
 }
 
+h4{
+	font-family: 'Overlock', Helvetica, sans-serif;
+	font-size: 1rem;
+	text-transform: uppercase;
+	margin: 0 auto;
+	margin-top: 1rem;
+	color: darken($purple-color, 15%);
+}
+
 .fa{
 	color: $orange-color;
 
@@ -90,8 +99,20 @@ h3{
 	right: 4rem;
 }
 
-.title{
-	font-family: 'Oxygen', Helvetica, sans-serif;
+.buttons-page{
+	left: 2.5rem;
+}
+
+.type-logo{
+	font-family: 'Arimo', sans-serif;
+}
+
+.yellow{
+	color: $yellow-color;
+}
+
+.orange{
+	color: $orange-color;
 }
 
 .phone-container{
@@ -182,6 +203,48 @@ p{
 	 }
 }
 
+.logo-tablet{
+	width: 500px;
+	margin: 0 auto;
+	display: block;
+}
+
+.logo-desktop{
+	width: 600px;
+	margin: 0 auto;
+	display: block;
+}
+
+.colors-row, .icon-row{
+	width: 100%;
+	margin: 1em auto;
+	overflow: hidden;
+}
+
+.icon-row{
+	padding: 0 0.2rem;
+}
+
+.circle-container{
+	width: 30%;
+	float: left;
+	margin-right: 3%;
+
+	p{
+		text-align: center;
+		margin: 0.5em 0 0 0.2em;
+	}
+}
+
+.white-icons{
+	width: 99%;
+	background-color: $orange-color;
+}
+
+.dropdown{
+	margin-left: -1%;
+}
+
 .arimo{
 	width: 80%;
 	margin: 0;
@@ -196,6 +259,52 @@ p{
 	font-size: 1.6rem;
 }
 
+.buttons-container{
+	overflow: hidden;
+}
+
+.button-static{
+	width: 45%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	border: 2px solid $yellow-color;
+	background-color: #fff;
+	color: $text-color;
+	text-align: center;
+	padding: 0.5em;
+	float: left;
+}
+
+.button-hover{
+	width: 45%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	border: 2px solid $yellow-color;
+	background-color: lighten($yellow-color, 30%);
+	color: $text-color;
+	text-align: center;
+	padding: 0.5em;
+	float: right;
+}
+
+.form-container{
+	margin: 0 auto;
+	box-sizing: border-box;
+	border: 2px solid $yellow-color;
+	background-color: #fff;
+	color: $text-color;
+	text-align: center;
+	padding: 0.5em;
+}
+
+.form-text{
+	width: 99%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	background-color: $gray-color;
+	line-height: 1.5;
+	padding: 0.2em;
+}
 
 
 

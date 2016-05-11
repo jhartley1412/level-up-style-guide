@@ -45,28 +45,18 @@
 		padding: 0.5em 1.2em;
 	}
 
-	.colors-row{
-		width: 100%;
-		margin: 1em auto;
-		overflow: hidden;
-	}
-
-	.circle-container{
-		width: 30%;
-		float: left;
-		margin-right: 3%;
-
-		p{
-			text-align: center;
-			margin: 0.5em 0 0 0.2em;
-		}
-	}
-
 	.circle{
 		width: 80px;
 		height: 80px;
 		border-radius: 50%;
 		margin: 0 auto;
+	}
+
+	.icon{
+		width: 20%;
+		margin: 0 auto;
+		margin-right: 5%;
+		float: left;
 	}
 	
 
@@ -194,6 +184,16 @@
 		width: 50%;
 		float: left;
 		margin: 0;
+	}
+
+	.left-desc, .right-desc{
+		width: 45%;
+		float: left;
+		margin: 0;
+	}
+
+	.left-desc{
+		margin-right: 5%;
 	}
 
 	.second-desc{
